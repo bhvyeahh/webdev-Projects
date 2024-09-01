@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap');
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.material-symbols-outlined{
+    position: relative;
+    margin-right: 21px;
+    top: 4.1px;
+}
+body{
+    background-color: rgba(23, 20, 20);
+    /* background-color: black; */
+    overflow-x: hidden;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    border: 0px solid black;
+    color: rgb(255, 255, 255);
+    background-color: rgba(23, 20, 20, 0);
+    /* padding: 12px; */
+    text-align: right;
+    text-decoration: none;
+    height: 10vh;
+    line-height: 60px;
+    font-size:22px ;
+    /* w100% */
+    font-family: "Quicksand", sans-serif;
+    /* font-family: "Protest Riot", sans-serif; */
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.material-symbols-outlined{
+    color: white;
+    position: relative;
+    left: 3px;
+}
+    .navbar li{
+        list-style-type: none;
+        text-decoration: none;
+        display: inline-flex;
+        line-height: 60px;
+        position: relative;
+        margin: 0 50px;
+    }
+    .navbar a{
+      text-decoration: none;
+      color: white;
+    }
+    h2 {
+        height: 0px;
+        /* line-height: 60px; */
+        position: relative;
+        text-align: left;
+        margin-left: 35px;
+      }
+      .navbar tab{
+        position: relative;
+        height: 0;
+        /* bottom: 15px; */
+      }
+      img{
+        position: relative;
+        /* bottom: 70px; */
+        /* background-size: cover; */
+        z-index: -1;
+        margin: 0;
+        bottom: 75px;
+        width: 101.3%;
+        height: 100vh;
+    }
+    .bfp{
+        transform: translate(-50%,-50%);
+        text-align: center;
+        font-size: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /* bottom: 450px; */
+        /* margin: 0; */
+        color: white;
+        font-family: "Shadows Into Light", cursive;
+        font-size: 50px;
+      }
+      h4{
+        font-family: "Quicksand", sans-serif;
+        /* top: 10px; */
+        position: relative;
+        font-size: 30px;
+        text-align: center;
+        /* top: 50%;
+        left: 50%;
+        transform: translate(-50%,-20%); */
+      }
+      .searchbar{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 66%;
+        left: 52%;
+        transform: translate(-50%,50%);
+        /* bottom: 400px; */
+      }
+      .searchbar input[type=text]{
+        position: relative;
+        font-family: "Quicksand", sans-serif;
+
+        width: 580px;
+        height: 47px;
+        border-radius: 9px;
+        margin: 0;
+        padding-left: 20px;
+        font-size: 16px;
+      }
+      ::placeholder{
+        position: relative;
+        left: px;
+      }
+      article{
+        display: flex;
+      }
+      .boxes{
+        position: relative;
+        border-radius: 16px;
+        box-sizing: border-box;
+        /* border: 1px solid white; */
+        bottom: 27px;
+        color: white;
+        width: 34vw;
+        height: 35vh;
+        /* align-items: top; */
+        margin: 12px;
+        /* justify-content: flex-start;
+        display: flex;
+        flex-wrap: wrap; */
+        left: 15%;
+        /* box-shadow: 2px 2px 2px blue; */
+        /* display: flex; */
+      }
+      .order{
+        position: relative;
+          z-index: -1;
+      }
+      .container img{
+        width: 34vw;
+        height: 30vh;
+        position: relative;
+        border-radius: 16px;
+        top: 0;
+    }
+    .dining{
+        position: relative;
+        /* left: 17%; */
+    }
+    .order .container{
+        /* border: 1px solid white; */
+        height: 100px;
+        /* right: 11px; */
+        margin: 0;
+        padding: 0;
+        top: 60px;
+    }
+    .order .ordercont{
+        /* border: 1px solid white; */
+        box-sizing: border-box;
+        position: relative;
+        height: 100px;
+        bottom: 67px;
+        border-radius: 0px 0px 16px 16px;
+        background-color: rgb(16, 15, 15);
+        text-align: left;
+        padding-left: 12px;
+        font-size: 30px;
+        font-family: "Quicksand", sans-serif;
+        line-height: 50px;
+      }
+      .ordercont p{
+        font-size:  24px;
+        position: relative;
+        bottom: 10px;
+        color: rgb(148, 144, 144);
+        text-align: left;
+      }
+      .dining .diningcont{
+        /* border: 1px solid white; */
+        box-sizing: border-box;
+        position: relative;
+        height: 100px;
+        bottom: 67px;
+        border-radius: 0px 0px 16px 16px;
+        background-color: rgb(16, 15, 15);
+        text-align: left;
+        padding-left: 12px;
+        font-size: 30px;
+        font-family: "Quicksand", sans-serif;
+        line-height: 50px;
+      }
+      .diningcont p{
+        font-size:  24px;
+        position: relative;
+        color: rgb(148, 144, 144);
+        bottom: 10px;
+        text-align: left;
+      }
+
+      .collection{
+      position: relative;
+      left: 12.7%;
+      color: white;
+      font-size: 24px;
+      font-family: "Quicksand", sans-serif;
+      }
+      .collectionp{
+        position: relative;
+        left:36px;
+        top: 16px;
+      }
+      a{
+        display: inline-flex;
+        text-decoration: none;
+      }
+      .flex{
+        border: 0px solid white; 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+      .col{
+        position: relative;
+        border: 0px solid white;
+        height: 45vh;
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 17vw;
+        border-radius: 10px;
+        top: 22px;
+        margin: 7px;
+        /* display: flex; */
+      }
+      .col  img{
+        position: relative;
+        top: 0;
+        width: 17vw;
+        height: 45vh;
+        border-radius: 10px;
+      }
+      .col p{
+        position: relative;
+        bottom: 100px;
+        color: white;
+        font-size: 35px;
+        left: 8px;
+        text-shadow: 0px 0px 8px rgb(0, 0, 0);
+        font-family: "Quicksand", sans-serif;
+      }
+      .card{
+        position: relative;
+        top: 16vh;
+        left: 52px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 0px solid white;
+        height: 60vh;
+        width: 95vw;
+        align-content: center;
+        justify-content: center;
+      }
+      .cards{
+        border: 1px solid rgb(95, 91, 91);
+        height: 12vh;
+        font-family: "Quicksand", sans-serif;
+        color: white;
+        border-radius: 10px;
+        width: 24vw;
+        margin: 10px;
+        padding: 1px 12px;
+        position: relative;
+        font-size: 30px;
+      }
+      .heading2{
+        color: white;
+        font-family: "Quicksand", sans-serif;
+        /* text-align: center; */
+        top: 94px;
+        left: 12%;
+        font-size: 39px;
+      }
+      .cards span{
+        position: relative;
+        top: 4px;
+        left: 1%;
+      }
+      .cards p{
+        position: relative;
+        font-size: 22px;
+        top: 8px;
+        left: 1%;
+      }
+      .cards:last-child{
+        text-align: center;
+        line-height: 10vh;
+      }
+      .contact{
+        position: relative;
+        top: 20vh;
+        color: white;
+        /* display: flex; */
+        /* border: 1px solid white; */
+      }
+      .contact h1{
+        position: relative;
+        text-align:center;
+        left: 1px;
+        right: 40px;
+        bottom: 30vh;
+        font-family: "Quicksand", sans-serif;
+        font-size: 50px;
+      }
+      .contact p{
+        position: relative;
+        text-align:center;
+        right: 40px;
+        bottom: 27vh;
+        left: 4.5%;
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+      }
+      .imgcont img{
+        height: 35vh;
+        width: 17vw;
+        position: relative;
+        left: 15%;
+        top: 20vh;
+        /* align-items: center; */
+      }
+      .inputs{
+        color: white;
+        accent-color: black;
+        position: relative;
+        font-family: "Quicksand", sans-serif;
+        text-align: center;
+        font-size: 20px;
+        bottom: 20px;
+        /* padding: 12px; */
+      }
+      .inputs a{
+        text-decoration: none;
+        color: white;
+      }
+      label {
+        margin-right: 4vw;
+        padding: 4px;
+        right: 3vw;
+      }
+      .contactbar{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 66%;
+        left:53.6%;
+        transform: translate(-50%,50%);
+        /* background-color: rgb(37, 78, 115); */
+      }
+      .contactbar input[type=text]{
+        position: relative;
+        font-family: "Quicksand", sans-serif;
+        width: 580px;
+        height: 47px;
+        border-radius: 9px;
+        margin: 0;
+        padding-left: 20px;
+        font-size: 16px;
+      }
+      #unique{
+        color: white;
+        background-color: black;
+        position: relative;
+        left: 2px;
+        width: 178px;
+        height: 44px;
+        font-family: "Quicksand", sans-serif;
+        border-radius: 7px;
+        bottom: 10px;
+        font-size: 20px;
+        }
+        .explore{
+          position: relative;
+          top: 24vh;
+          left: 4vw;
+          /* display: flex; */
+          /* justify-content: center; */
+          border: 1px solid white;
+          height: 60vh;
+          width: 90vw;
+        }
+        .expcard{
+          border: 1px solid white;
+          position: relative;
+          top: 8vh;
+          margin: 20px;
+          padding: 24px;
+          color: white;
+          border-radius: 8px;
+        font-family: "Quicksand", sans-serif;
+        }
